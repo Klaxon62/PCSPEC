@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Setup de Klaxon62</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-shadow: 0 0 5px black;
+    }
+
+    video#bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 900px;
+      margin: 50px auto;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      padding: 15px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s, background-color 0.3s;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+    }
+
+    .twitch { background-color: #9146FF; }
+    .youtube { background-color: #FF0000; }
+    .tiktok { background-color: #000000; }
+    .kick { background-color: #53FC18; color: black; }
+
+    .btn i {
+      margin-right: 8px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="Fondo Joker.mp4" type="video/mp4">
+    Ton navigateur ne supporte pas la vidéo HTML5.
+  </video>
+
+  <div class="content">
+    <h1>Setup de Klaxon62</h1>
+    <ul>
+      <li><strong>Clavier :</strong> Logitech G G915 X LIGHTSPEED</li>
+      <li><strong>Chaise :</strong> AutoFull Chaise Gaming</li>
+      <li><strong>Souris :</strong> Logitech G PRO X SUPERLIGHT</li>
+      <li><strong>Webcam :</strong> Logitech for Creators StreamCam</li>
+      <li><strong>Écran :</strong> LG Ultragear™ 27GS75Q</li>
+      <li><strong>SSD :</strong> Samsung SSD 990 Pro 2x 1TO</li>
+      <li><strong>Alimentation :</strong> Corsair RM1000x 80 PLUS Gold</li>
+      <li><strong>Processeur :</strong> AMD RYZEN™ 7 9800X 3D</li>
+      <li><strong>Carte mère :</strong> ASUS ROG Strix B850-E Gaming WiFi</li>
+      <li><strong>RAM :</strong> G.SKILL Trident Z5 Neo RGB Series 2x16GO</li>
+      <li><strong>Boîtier :</strong> NZXT H9 Flow noir</li>
+      <li><strong>Carte graphique :</strong> ASUS TUF Gaming RTX 5070 Ti 16GB GDDR7 OC</li>
+    </ul>
+
+    <div class="buttons">
+      <a class="btn twitch" href="https://www.twitch.tv/klaxon62" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+      <a class="btn youtube" href="https://www.youtube.com/@klaxon62" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <a class="btn tiktok" href="https://www.tiktok.com/@klaxon62" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+      <a class="btn kick" href="https://www.kick.com/klaxon62" target="_blank"><i class="fas fa-bolt"></i> Kick</a>
+    </div>
+  </div>
+
+</body>
+</html>
